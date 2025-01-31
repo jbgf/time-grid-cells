@@ -5,5 +5,48 @@ This project helps users visualize their time allocation through intuitive grids
 
 ![image](https://github.com/user-attachments/assets/c5be2176-55bc-4ee4-b80c-8419c1c9f497)
 
-# official site
+
+## Installation
+
+Using pnpm (recommended):
+```bash
+pnpm install
+```
+### TypeScript Interface
+```typescript
+type TimeUnit = 'year' | 'month' | 'day' | 'hour';
+
+interface TimeGridCellsProps {
+  lifeExpectancy: number;
+  currentYear: number;
+  birthDate: string;
+  isEditing: boolean;
+  maxValue: number;
+  unit: TimeUnit;
+}
+```
+### Usage
+```typescript
+  <TimeGridCells
+    lifeExpectancy={lifeExpectancy}
+    currentYear={currentYear}
+    birthDate={birthDate}
+    isEditing={isEditing}
+    maxValue={tempLifeExpectancy!}
+    unit="year"
+  />
+```
+
+
+## Official Demo Site
 https://www.5minutetimer.app/time-account
+
+## Contributing
+
+We welcome contributions! Please see our contributing guidelines for details.
+
+## License
+
+MIT
+
+
