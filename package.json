@@ -1,0 +1,35 @@
+{
+  "name": "time-grid-cells",
+  "version": "0.0.1",
+  "description": "A React component for displaying time grid cells",
+  "main": "./dist/time-grid-cells.umd.js",
+  "module": "./dist/time-grid-cells.js",
+  "types": "./dist/time-grid-cells.d.ts",
+  "style": "./dist/time-grid-cells.css",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "vite": "^6.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite-plugin-dts": "^3.7.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/time-grid-cells.js",
+      "require": "./dist/time-grid-cells.umd.js",
+      "types": "./dist/time-grid-cells.d.ts"
+    },
+    "./style.css": "./dist/time-grid-cells.css"
+  }
+}
