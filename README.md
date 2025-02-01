@@ -27,6 +27,8 @@ interface TimeGridCellsProps {
 ```
 ### Usage
 ```typescript
+  import TimeGridCells from 'time-grid-cells';
+  
   <TimeGridCells
     lifeExpectancy={lifeExpectancy}
     currentYear={currentYear}
