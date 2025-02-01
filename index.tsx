@@ -1,3 +1,4 @@
+import './index.css';
 import TimeGridCell from "./time-grid-cell";
 type TimeUnit = 'year' | 'month' | 'day' | 'hour';
 

@@ -49,4 +49,8 @@ We welcome contributions! Please see our contributing guidelines for details.
 
 MIT
 
+## 使用方法
+
+This package automatically imports the required style files, no need to manually import CSS.
+
 
