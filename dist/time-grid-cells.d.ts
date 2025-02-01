@@ -1,6 +1,7 @@
 import { JSX as JSX_2 } from 'react';
 
-export declare const TimeGridCells: ({ unit, lifeExpectancy, currentYear, birthDate, isEditing, maxValue }: TimeGridCellsProps) => JSX_2.Element;
+declare function TimeGridCells({ unit, lifeExpectancy, currentYear, birthDate, isEditing, maxValue }: TimeGridCellsProps): JSX_2.Element;
+export default TimeGridCells;
 
 declare interface TimeGridCellsProps {
     lifeExpectancy: number;

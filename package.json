@@ -30,6 +30,6 @@
       "require": "./dist/time-grid-cells.umd.js",
       "types": "./dist/time-grid-cells.d.ts"
     },
-    "./style.css": "./dist/time-grid-cells.css"
+    "./style.css": "./dist/index.css"
   }
 }
