@@ -10,7 +10,7 @@ This project helps users visualize their time allocation through intuitive grids
 
 Using pnpm (recommended):
 ```bash
-pnpm install
+pnpm add time-grid-cells
 ```
 ### TypeScript Interface
 ```typescript
