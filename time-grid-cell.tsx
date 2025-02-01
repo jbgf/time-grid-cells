@@ -1,9 +1,9 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import styles from './style.module.css';
 import { useEffect, useRef, useState } from 'react';
 import dayjs from 'dayjs';
+import './style.css';
 
 type TimeUnit = 'year' | 'month' | 'day' | 'hour';
 
@@ -127,19 +127,14 @@ export default function TimeGridCell({
 
       {/* Water Animation for Current Cell */}
       {index === currentIndex && (
-        <div className={styles.timeCell}>
-          <div className={styles.water}>
-            <div className={styles.waterContent}>
-              <div className={`${styles.waterProgress} hidden sm:block`}>
+        <div className="timeGridCells-timeCell">
+          <div className="timeGridCells-water">
+            <div className="timeGridCells-waterContent">
+              <div className="timeGridCells-waterProgress hidden sm:block">
                 {Math.round(progress)}%
               </div>
             </div>
           </div>
-
-          {/* Fullscreen Button */}
-          {/* <div className="absolute bottom-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-20">
-            <FullscreenButton containerRef={cellRef} />
-          </div> */}
         </div>
       )}
     </motion.div>
