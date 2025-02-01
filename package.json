@@ -31,5 +31,18 @@
       "types": "./dist/time-grid-cells.d.ts"
     },
     "./style.css": "./dist/index.css"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbgf/time-grid-cells.git"
+  },
+  "keywords": [
+    "timemanagement"
+  ],
+  "author": "jb1010",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbgf/time-grid-cells/issues"
+  },
+  "homepage": "https://www.5minutetimer.app/time-account"
 }
