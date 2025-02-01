@@ -1,0 +1,69 @@
+.timeCell {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  bottom: 0;
+  height: 100%;
+}
+
+.water {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  box-shadow: inset 0 0 50px lightgray;
+  clip-path: polygon(0 0, 100% 0 10% 100%, 15% 100%);
+  transition: height 0.3s ease-in-out;
+}
+
+.water::before {
+  content: "";
+  width: 200%;
+  height: 200%;
+  background-color: #4d7c0f;
+  position: absolute;
+  top: var(--progress);
+  left: -50%;
+  border-radius: 40%;
+  animation: anim 24s linear infinite;
+}
+
+.water::after {
+  content: "";
+  width: 204%;
+  height: 204%;
+  background-color: #4d7c0f;
+  position: absolute;
+  top: var(--progress);
+  left: -52%;
+  border-radius: 40%;
+  animation: anim 24s linear infinite;
+  animation-delay: 0.5s;
+}
+
+.waterContent {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.waterProgress {
+  color: yellow;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
