@@ -28,7 +28,7 @@ interface TimeGridCellsProps {
 ### Usage
 ```typescript
   import TimeGridCells from 'time-grid-cells';
-  
+
   <TimeGridCells
     lifeExpectancy={lifeExpectancy}
     currentYear={currentYear}
@@ -38,7 +38,9 @@ interface TimeGridCellsProps {
     unit="year"
   />
 ```
+## Style
 
+This package automatically imports the required style files, no need to manually import CSS.
 
 ## Official Demo Site
 https://www.5minutetimer.app/time-account
@@ -51,8 +53,6 @@ We welcome contributions! Please see our contributing guidelines for details.
 
 MIT
 
-## 使用方法
 
-This package automatically imports the required style files, no need to manually import CSS.
 
 
