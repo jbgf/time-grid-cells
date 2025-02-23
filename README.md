@@ -3,7 +3,8 @@ This project helps users visualize their time allocation through intuitive grids
 📅 Nested Time Perspectives: Year/Month/Week/Day views with similar visualization patterns
 🎯 Core Purpose: Promote time consciousness using fading color schemes (gray for past, green for future) to prioritize meaningful matters
 
-![image](https://github.com/user-attachments/assets/c5be2176-55bc-4ee4-b80c-8419c1c9f497)
+![image](https://github.com/user-attachments/assets/1a6a885d-6172-4892-94a7-f1f5dc4c9cd3)
+
 
 
 ## Installation
