@@ -1,6 +1,6 @@
 {
   "name": "time-grid-cells",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A React component for displaying time grid cells",
   "main": "dist/index.js",
   "module": "./dist/time-grid-cells.js",
